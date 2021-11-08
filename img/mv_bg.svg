@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="960" viewBox="0 0 1920 960">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1225" data-name="長方形 1225" width="1920" height="960" transform="translate(0 184)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.654" cy="0.684" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ea6552"/>
+      <stop offset="1" stop-color="#ea6552"/>
+    </radialGradient>
+  </defs>
+  <g id="マスクグループ_6" data-name="マスクグループ 6" transform="translate(0 -184)" clip-path="url(#clip-path)">
+    <g id="グループ_396" data-name="グループ 396" transform="translate(23.853 -19.344)">
+      <circle id="楕円形_64" data-name="楕円形 64" cx="105.5" cy="105.5" r="105.5" transform="translate(-73 328)" opacity="0.16" fill="url(#radial-gradient)"/>
+      <ellipse id="楕円形_63" data-name="楕円形 63" cx="91.5" cy="98" rx="91.5" ry="98" transform="matrix(0.966, 0.259, -0.259, 0.966, 1471.482, 862.657)" opacity="0.16" fill="url(#radial-gradient)"/>
+      <circle id="楕円形_62" data-name="楕円形 62" cx="105.5" cy="105.5" r="105.5" transform="translate(815 129)" opacity="0.16" fill="url(#radial-gradient)"/>
+      <ellipse id="楕円形_61" data-name="楕円形 61" cx="53" cy="57" rx="53" ry="57" transform="translate(1442.863 881.601) rotate(120)" opacity="0.16" fill="url(#radial-gradient)"/>
+      <ellipse id="楕円形_60" data-name="楕円形 60" cx="119.5" cy="128" rx="119.5" ry="128" transform="translate(1636 579)" opacity="0.16" fill="url(#radial-gradient)"/>
+      <circle id="楕円形_59" data-name="楕円形 59" cx="149" cy="149" r="149" transform="translate(29 659)" opacity="0.16" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
