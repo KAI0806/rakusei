@@ -3,6 +3,7 @@ main{
     background: #F0D7DA;
     color: #333333;
     padding-top: 11.4rem;
+    overflow-x: hidden;
 }
 
 #mv{
@@ -41,7 +42,7 @@ main{
     font-size: 7.9rem;
 }
 
-#mv .wrap > img{
+#mv .wrap .overview{
     width: 100%;
     margin-top: -28rem;
     margin-bottom: 6.9rem;
@@ -93,7 +94,7 @@ main{
 #mv .wrap .cta{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     width: 48%;
     max-width: 920px;
     margin: auto;
@@ -105,6 +106,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 25rem;
+    width: 23.2rem;
 }
 
 #mv .wrap .cta a p{
@@ -382,6 +384,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 25rem;
+    width: 23.2rem;
 }
 
 .cta a p{
@@ -622,7 +625,7 @@ label{
 label span{
     font-size: 1.6rem;
     color: white;
-    background: #F685BD;
+    background: #EA6552;
     padding: 0.68rem 1.8rem;
     border-radius: .6rem;
     margin-left: 2rem;
@@ -672,4 +675,413 @@ button:hover{
 .copylight{
     margin-top: 4rem;
     font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1024px){
+    #mv .wrap .cta a{
+        width: 28rem;
+    }
+
+    .cta a{
+        width: 28rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    main{
+        padding-top: 5.1rem;
+    }
+    
+    #mv{
+        background: url("../img/mv_bg_sp.svg") no-repeat center center/cover;
+        padding: 4.16rem 0 2.4rem;
+    }
+
+    #mv .wrap{
+        width: 92.5%;
+    }
+
+    #mv .wrap .txt{
+        width: 34.3rem;
+    }
+
+    #mv .wrap .overview{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 2.1rem;
+    }
+
+    #mv .wrap .attention{
+        font-size: 1.6rem;
+        margin-bottom: 1.66rem;
+    }
+    
+    #mv .wrap .attention:before{
+        width: 3.822rem;
+        height: 3.281rem;
+        left: -4rem;
+    }
+    
+    #mv .wrap .attention::after{
+        width: 3.822rem;
+        height: 3.281rem;
+        right: -3rem;
+    }
+    
+    #mv .wrap .attention span::before{
+        bottom: -.2rem;
+    }
+
+    #mv .wrap .cta{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #mv .wrap .cta a{
+        padding: 1rem 1.5rem;
+        border-radius: 6.1rem;
+        width: 13.4rem;
+    }
+    
+    #mv .wrap .cta a p{
+        font-size: 1.2rem;
+        margin-left: .9rem;
+    }
+    
+    #mv .wrap .cta .line{
+        box-shadow: 1px 2px 0 #BAC4B9;
+    }
+    
+    #mv .wrap .cta .line:hover{
+        transform: translate(1px, 2px);
+    }
+    
+    #mv .wrap .cta .line img{
+        width: 2.5rem;
+    }
+    
+    #mv .wrap .cta .mail{
+        box-shadow: 1px 2px 0 #D88B6C;
+    }
+    
+    #mv .wrap .cta .mail:hover{
+        transform: translate(1px, 2px);
+    }
+    
+    #mv .wrap .cta .mail img{
+        width: 2.4rem;
+    }
+
+    #mv .wrap > p{
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    /* feature */
+    #feature{
+        padding: 3rem 0;
+    }
+    
+    #feature h2{
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+    
+    #feature h2 span{
+        font-size: 2.8rem;
+    }
+    
+    #feature h2 span::before{
+        height: 1.2rem;
+        bottom: -.2rem;
+    }
+    
+    #feature .wrap{
+        width: 92.5%;
+        flex-wrap: wrap;
+    }
+
+    #feature .wrap div{
+        width: 14.5rem;
+        height: 14.5rem;
+    }
+
+    #feature .wrap div:first-child{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #feature .wrap div::before{
+        font-size: 1.6rem;
+    }
+
+    #feature .wrap div p{
+        font-size: 1.9rem;
+    }
+
+    /* example */
+
+    #examp{
+        background: url("../img/examp_bg_sp.svg") no-repeat center center/cover;
+    }
+    
+    #examp .wrap{
+        width: 92.5%;
+        padding: 2.85rem 0 2.42rem;
+    }
+
+    #examp .wrap h2 small, #voice .wrap h2 small, #faq .wrap h2 small{
+        font-size: 2.2rem;
+    }
+    
+    #examp .wrap h2 span, #voice .wrap h2 span, #faq .wrap h2 span{
+        font-size: 3.4rem;
+    }
+    
+    #examp .wrap h2 span::before, #voice .wrap h2 span::before, #faq .wrap h2 span::before{
+        height: 1.2rem;
+        bottom: -.3rem;
+    }
+
+    #examp .wrap .example_img{
+        margin-top: 2.52rem;
+    }
+
+    #examp .wrap p{
+        font-size: 2.8rem;
+        margin-top: 4.26rem;
+        margin-bottom: 4rem;
+    }
+
+    #examp .wrap p::before{
+        width: 34.269rem;
+        height: 7.099rem;
+    }
+
+    #examp .wrap div{
+        width: 104%;
+        transform: translateX(-2%);
+    }
+
+    #examp .wrap div::before{
+        width: 8.105rem;
+        height: 5.471rem;
+        left: 1.5rem;
+        top: 2.13rem;
+    }
+
+    #examp .wrap div::after{
+        width: 11.7rem;
+        height: 13.408rem;
+        right: .5rem;
+        top: -2.5rem;
+    }
+
+    .cta_wrap{
+        padding: 2.34rem 0 2.2rem;
+    }
+
+    .attention{
+        font-size: 1.6rem;
+        margin-bottom: 1.66rem;
+    }
+    
+    .attention:before{
+        width: 3.822rem;
+        height: 3.281rem;
+        left: -4rem;
+    }
+    
+    .attention::after{
+        width: 3.822rem;
+        height: 3.281rem;
+        right: -3rem;
+    }
+    
+    .attention span::before{
+        bottom: -.2rem;
+    }
+
+    .cta{
+        width: 92.5%;
+        justify-content: space-between;
+    }
+
+    .cta a{
+        padding: 1rem 1.5rem;
+        border-radius: 6.1rem;
+        width: 13.4rem;
+    }
+    
+    .cta a p{
+        font-size: 1.2rem;
+        margin-left: .9rem;
+    }
+    
+    .cta .line{
+        box-shadow: 1px 2px 0 #BAC4B9;
+    }
+    
+    .cta .line:hover{
+        transform: translate(1px, 2px);
+    }
+    
+    .cta .line img{
+        width: 2.5rem;
+    }
+    
+    .cta .mail{
+        box-shadow: 1px 2px 0 #D88B6C;
+    }
+    
+    .cta .mail:hover{
+        transform: translate(1px, 2px);
+    }
+    
+    .cta .mail img{
+        width: 2.4rem;
+    }
+
+    /* voice */
+    #voice{
+        background: url("../img/voice_bg_sp.svg") no-repeat center center/cover;
+    }
+
+    #voice .wrap{
+        width: 92.5%;
+        padding: 2rem 0 2.6rem;
+    }
+
+    #voice .wrap .content{
+        margin-top: 3.3rem;
+        padding: 1.95rem 2rem;
+        width: calc(100% - 4rem);
+    }
+
+    #voice .wrap .content div div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    #voice .wrap .content div div img{
+        width: 7.2rem;
+    }
+
+    #voice .wrap .content h3{
+        font-size: 2.3rem;
+        margin-bottom: 0;
+    }
+
+    #voice .wrap .content:nth-child(3) img{
+        width: 7.2rem;
+        transform: translateX(0);
+    }
+
+    #voice .wrap .content p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    /* faq */
+    #faq{
+        background: url("../img/faq_bg_sp.svg") no-repeat center center/cover;
+    }
+
+    #faq .wrap{
+        width: 92.5%;
+        padding: 2rem 0 3rem;
+    }
+
+    #faq .wrap .content{
+        margin-bottom: 1.5rem;
+    }
+
+    #faq .wrap .content div{
+        padding: 2rem 2.3rem;
+        width: calc(100% - 4.6rem);
+    }
+
+    #faq .wrap .content .question{
+        margin-bottom: .2rem;
+    }
+
+    #faq .wrap .content div p:first-child{
+        font-size: 3.4rem;
+        margin-right: .8rem;
+    }
+
+    #faq .wrap .content .question p:nth-child(2){
+        font-size: 1.6rem;
+    }
+
+    #faq .wrap .content .answer p:nth-child(2){
+        font-size: 1.4rem;
+    }
+
+    /* contact */
+    #contact .wrap{
+        width: 83.4667%;
+        padding: 3.8rem 0 1.2rem;
+    }
+
+    #contact .wrap h2{
+        font-size: 3.4rem;
+        margin-bottom: 3rem;
+        line-height: 120%;
+    }
+    
+    #contact .wrap h2 small{
+        font-size: 2.2rem;
+    }
+    
+    #contact .wrap h2 > span::before{
+        height: 1.2rem;
+        bottom: -.4rem;
+    }
+    
+    #contact .wrap h2 small .dot::before{
+        width: .6rem;
+        height: .6rem;
+        top: -.75rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    label{
+        font-size: 1.6rem;
+    }
+
+    label span{
+        font-size: 1.2rem;
+        padding: .4rem 1.2rem;
+        margin-left: 1.1rem;
+    }
+
+    .service{
+        font-size: 1.4rem;
+    }
+
+    #contact .wrap form > div{
+        margin-bottom: 1.3rem;
+    }
+
+    input, textarea, select{
+        font-size: 1.4rem;
+    }
+
+    #contact .wrap form > div{
+        margin-top: 2.7rem;
+        margin-bottom: 0;
+    }
+
+    button{
+        padding: 1.65rem 8.9rem;
+    }
+
+    .copylight{
+        font-size: 1.2rem;
+        margin-top: 2.3rem;
+    }
 }

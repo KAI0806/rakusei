@@ -14,16 +14,18 @@
 <body>
     <header>
         <img src="img/logo.svg" alt="RAKUSEI">
-        <a href="">無料相談はこちら</a>
+        <a class="pc_only" href="">無料相談はこちら</a>
     </header>
     <main>
         <section id="mv">
             <div class="wrap">
-                <h1>
+                <h1 class="pc_only">
                     RAKUSEI のおまとめで
                     <br/><span>借金完済</span><small>しませんか？</small>
                 </h1>
-                <img src="img/overview.svg" alt="おまとめ成立でプレゼント">
+                <img class="txt sp_only" src="img/mv_txt.svg" alt="RAKUSEIのおまとめで借金完済しませんか？">
+                <img class="overview pc_only" src="img/overview.svg" alt="おまとめ成立でプレゼント">
+                <img class="overview sp_only" src="img/overview_sp.svg" alt="おまとめ成立でプレゼント">
                 <p class="attention"><span>本気で完済</span> したい方はコチラ</p>
 
                 <div class="cta">
@@ -62,12 +64,14 @@
                     <br/><span>おまとめの事例</span>
                 </h2>
 
-                <img class="example_img" src="img/example.svg" alt="おまとめ事例">
+                <img class="example_img pc_only" src="img/example.svg" alt="おまとめ事例">
+                <img class="example_img sp_only" src="img/example_sp.svg" alt="おまとめ事例">
 
                 <p>おまとめの結果...!!</p>
 
                 <div>
-                    <img class="result" src="img/result.svg" alt="減額できました！">
+                    <img class="result pc_only" src="img/result.svg" alt="減額できました！">
+                    <img class="result sp_only" src="img/result_sp.svg" alt="減額できました！">
                 </div>
             </div>
             <div class="cta_wrap">
@@ -89,26 +93,37 @@
 
                 <div class="content">
                     <div>
-                        <h3>夫の隠していた借金が
-                            <br/><span>無事完済</span>できました！</h3>
+                        <div>
+                            <h3>
+                                夫の隠していた借金が
+                                <br/><span>無事完済</span>できました！
+                            </h3>
+                            <img class="sp_only" src="img/voice_f_sp.svg" alt="40代女性">
+                        </div>
                         <p>
                             　ある日突然夫から<span>「実は借金がある」</span>と告げられた時はその金額に目の前が真っ暗になっていました。いきなりのことでどうしたらいいのか全く分からず、でもなんとかしないと思い、藁にもすがる思いでこちらのサービスに問い合わせました。
                             <br/>　アドバイザーの方は<span>何もわからない私にも１つ１つ丁寧に説明しながら相談に乗ってくださり、</span>おまとめローンの審査が通るように尽力してくださいました。<span>無料でここまでのサポートを受けられて、</span>本当に感謝の気持ちでいっぱいです。
                         </p>
                     </div>
-                    <img src="img/voice_f.svg" alt="40代女性">
+                    <img class="pc_only" src="img/voice_f.svg" alt="40代女性">
                 </div>
 
                 <div class="content">
                     <div>
-                        <h3>月々の負担が減り、<span>貯金</span>も
-                            <br/>できるようになりました。</h3>
+                        <div>
+                            <h3>
+                                月々の負担が減り、<br class="sp_only"/><span>貯金</span>も
+                                <br class="pc_only"/>できるよう<br class="sp_only"/>になりました。
+                            </h3>
+                            <img class="sp_only" src="img/voice_m_sp.svg" alt="20代男性">
+                        </div>
+
                         <p>
                             　<span>返済に追われる毎日が不安</span>で、周囲に相談もできずにいたところ、偶然RAKUSEIの存在を知りました。
                             <br/>　月々の負担を少しでも減らしたいと相談すると返済先をまとめることで<span>月々の返済額を半分以下にできる</span>と教えてもらい、手続きや審査のアドバイスをいただきました。今は月々の負担が減り、<span>少しずつ貯金もできるようになりました！</span>
                         </p>
                     </div>
-                    <img src="img/voice_m.svg" alt="20代男性">
+                    <img class="pc_only" src="img/voice_m.svg" alt="20代男性">
                 </div>
             </div>
 
@@ -221,7 +236,7 @@
                     </div>
 
                     <div>
-                        <label>どこでこのサービスを知りましたか？ <span>必須</span></label>
+                        <label class="service">どこでこのサービスを知りましたか？ <span>必須</span></label>
                         <div>
                           <select name="どこでこのサービスを知りましたか？" data-formrun-required>
                             <option value>ー</option>
