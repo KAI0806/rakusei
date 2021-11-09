@@ -878,6 +878,10 @@ button:hover{
         padding: 2.85rem 0 2.42rem;
     }
 
+    #examp .wrap h2, #voice .wrap h2, #faq .wrap h2{
+        line-height: 250%;
+    }
+
     #examp .wrap h2 small, #voice .wrap h2 small, #faq .wrap h2 small{
         font-size: 2.2rem;
     }
