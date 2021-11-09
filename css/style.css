@@ -1,4 +1,40 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 5120px){
+    #mv .wrap{
+        max-width: unset !important;
+    }
+
+    #mv .wrap .cta{
+        max-width: unset !important;
+    }
+
+    #feature .wrap{
+        max-width: unset !important;
+    }
+
+    #examp .wrap{
+        max-width: unset !important;
+    }
+
+    .cta{
+        max-width: unset !important;
+    }
+
+    #voice .wrap{
+        max-width: unset !important;
+    }
+
+    #faq .wrap{
+        max-width: unset !important;
+    }
+
+    #contact .wrap{
+        max-width: unset !important;
+    }
+}
+
+
 main{
     background: #F0D7DA;
     color: #333333;
@@ -301,6 +337,7 @@ main{
 
 #examp .wrap div{
     position: relative;
+    width: 100%;
 }
 
 #examp .wrap div::before{
