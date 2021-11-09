@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 5120px){
+@media screen and (min-width: 3841px){
     #mv .wrap{
         max-width: unset !important;
     }
@@ -151,6 +151,7 @@ main{
     font-size: 2rem;
     color: #333333;
     margin-left: 2.2rem;
+    font-weight: bold;
 }
 
 #mv .wrap .cta .line{
@@ -435,6 +436,7 @@ main{
     font-size: 2rem;
     color: #333333;
     margin-left: 2.2rem;
+    font-weight: bold;
 }
 
 .cta .line{
@@ -570,6 +572,7 @@ main{
 
 #faq .wrap .content .question{
     margin-bottom: .5rem;
+    background: #F5F5F5;
 }
 
 #faq .wrap .content div p:first-child{
