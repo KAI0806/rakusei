@@ -128,7 +128,7 @@ main{
     width: 100%;
     height: .7rem;
     background: #F685BD;
-    bottom: -.7rem;
+    bottom: .1rem;
     z-index: -1;
 }
 
@@ -292,6 +292,8 @@ main{
 
 #examp .wrap h2, #voice .wrap h2, #faq .wrap h2{
     line-height: 400%;
+    position: relative;
+    z-index: 10;
 }
 
 #examp .wrap h2 small, #voice .wrap h2 small, #faq .wrap h2 small{
@@ -301,17 +303,15 @@ main{
 
 #examp .wrap h2 span, #voice .wrap h2 span, #faq .wrap h2 span{
     font-size: 5.5rem;
-    position: relative;
-    z-index: 10;
 }
 
-#examp .wrap h2 span::before, #voice .wrap h2 span::before, #faq .wrap h2 span::before{
+#examp .wrap h2::before, #voice .wrap h2::before, #faq .wrap h2::before{
     position: absolute;
     content: "";
     width: 100%;
     height: 1.5rem;
     background: #FFEB3B;
-    bottom: -.5rem;
+    bottom: 1.7rem;
     z-index: -1;
 }
 
@@ -382,6 +382,7 @@ main{
     position: relative;
     width: fit-content;
     margin: auto;
+    line-height: 100%;
     margin-bottom: 3.2rem;
 }
 
@@ -391,6 +392,7 @@ main{
     width: 6.429rem;
     height: 5.52rem;
     left: -7rem;
+    bottom: -1rem;
     background: url("../img/attention_left.svg") no-repeat center center/contain;
 }
 
@@ -400,6 +402,7 @@ main{
     width: 6.429rem;
     height: 5.52rem;
     right: -6.5rem;
+    bottom: -1rem;
     background: url("../img/attention_right.svg") no-repeat center center/contain;
 }
 
@@ -414,7 +417,7 @@ main{
     width: 100%;
     height: .7rem;
     background: #F685BD;
-    bottom: -.3rem;
+    bottom: .1rem;
     z-index: -1;
 }
 
@@ -515,7 +518,7 @@ main{
     width: 100%;
     height: 1.2rem;
     background: #FFEB3B;
-    bottom: -.6rem;
+    bottom: .1rem;
     z-index: -1;
 }
 
@@ -617,23 +620,20 @@ main{
 #contact .wrap h2{
     font-size: 5.5rem;
     margin-bottom: 6.2rem;
+    position: relative;
+    z-index: 10;
 }
 
 #contact .wrap h2 small{
     font-size: 3.6rem;
 }
 
-#contact .wrap h2 > span{
-    position: relative;
-    z-index: 10;
-}
-
-#contact .wrap h2 > span::before{
+#contact .wrap h2::before{
     position: absolute;
     content: "";
-    width: 100%;
+    width: 22rem;
     height: 1.5rem;
-    bottom: -.6rem;
+    bottom: 1.5rem;
     z-index: -1;
     background: #FFEB3B;
 }
