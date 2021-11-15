@@ -910,6 +910,10 @@ button:hover{
         bottom: -.3rem;
     }
 
+    #examp .wrap h2::before, #voice .wrap h2::before, #faq .wrap h2::before{
+        bottom: .3rem;
+    }
+
     #examp .wrap .example_img{
         margin-top: 2.52rem;
     }
