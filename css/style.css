@@ -848,6 +848,7 @@ button:hover{
 
     #feature h2::before{
         bottom: -.7rem;
+        width: 14rem;
     }
     
     #feature h2 span{
@@ -1047,6 +1048,7 @@ button:hover{
 
     #voice .wrap .content:nth-child(2) h3::before{
         bottom: -.1rem;
+        width: 9.3rem;
     }
 
     #voice .wrap .content:nth-child(3) h3::before{
