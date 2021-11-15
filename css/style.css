@@ -845,6 +845,10 @@ button:hover{
         font-size: 2rem;
         margin-bottom: 4rem;
     }
+
+    #feature h2::before{
+        bottom: -.7rem;
+    }
     
     #feature h2 span{
         font-size: 2.8rem;
@@ -890,7 +894,7 @@ button:hover{
     }
 
     #examp .wrap h2, #voice .wrap h2, #faq .wrap h2{
-        line-height: 2.5;
+        line-height: 1.5;
     }
 
     #examp .wrap h2 small, #voice .wrap h2 small, #faq .wrap h2 small{
@@ -1037,6 +1041,16 @@ button:hover{
         margin-bottom: 0;
     }
 
+    #voice .wrap .content:nth-child(2) h3::before{
+        bottom: -.1rem;
+    }
+
+    #voice .wrap .content:nth-child(3) h3::before{
+        left: 0;
+        top: 5.5rem;
+        width: 7rem;
+    }
+
     #voice .wrap .content:nth-child(3) img{
         width: 7.2rem;
         transform: translateX(0);
@@ -1093,6 +1107,10 @@ button:hover{
         font-size: 3.4rem;
         margin-bottom: 3rem;
         line-height: 1.2;
+    }
+
+    #contact .wrap h2::before{
+        bottom: -.5rem;
     }
     
     #contact .wrap h2 small{
