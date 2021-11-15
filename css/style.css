@@ -1052,7 +1052,7 @@ button:hover{
     #voice .wrap .content:nth-child(3) h3::before{
         left: 0;
         top: 5.5rem;
-        width: 7rem;
+        width: 4.7rem;
     }
 
     #voice .wrap .content:nth-child(3) img{
@@ -1115,6 +1115,7 @@ button:hover{
 
     #contact .wrap h2::before{
         bottom: -.5rem;
+        width: 13.5rem;
     }
     
     #contact .wrap h2 small{
