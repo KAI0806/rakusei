@@ -424,7 +424,7 @@ main{
 .cta{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     width: 40%;
     max-width: 920px;
     margin: auto;
@@ -778,13 +778,15 @@ button:hover{
     #mv .wrap .attention:before{
         width: 3.822rem;
         height: 3.281rem;
-        left: -4rem;
+        left: -4.5rem;
+        bottom: -1rem;
     }
     
     #mv .wrap .attention::after{
         width: 3.822rem;
         height: 3.281rem;
-        right: -3rem;
+        right: -3.5rem;
+        bottom: -.8rem;
     }
     
     #mv .wrap .attention span::before{
@@ -961,13 +963,13 @@ button:hover{
     .attention:before{
         width: 3.822rem;
         height: 3.281rem;
-        left: -4rem;
+        left: -4.5rem;
     }
     
     .attention::after{
         width: 3.822rem;
         height: 3.281rem;
-        right: -3rem;
+        right: -3.5rem;
     }
     
     .attention span::before{
