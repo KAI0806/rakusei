@@ -103,7 +103,7 @@ main{
     width: 6.429rem;
     height: 5.52rem;
     left: -7rem;
-    bottom: -2rem;
+    bottom: -1rem;
     background: url("../img/attention_left.svg") no-repeat center center/contain;
 }
 
@@ -113,7 +113,7 @@ main{
     width: 6.429rem;
     height: 5.52rem;
     right: -5.5rem;
-    bottom: -2rem;
+    bottom: -1rem;
     background: url("../img/attention_right.svg") no-repeat center center/contain;
 }
 
@@ -188,7 +188,7 @@ main{
 #mv .wrap > p{
     font-size: 1.8rem;
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 /* feature */
@@ -537,7 +537,8 @@ main{
 
 #voice .wrap .content p span{
     font-weight: bold;
-    border-bottom: .3rem solid #EA6552;
+    /* border-bottom: .3rem solid #EA6552; */
+    text-decoration: solid underline #EA6552 .25rem;
 }
 
 #voice .wrap .content img{
@@ -762,6 +763,8 @@ button:hover{
 
     #mv .wrap .txt{
         width: 34.3rem;
+        margin: auto;
+        margin-bottom: 1rem;
     }
 
     #mv .wrap .overview{
@@ -1067,6 +1070,7 @@ button:hover{
     #voice .wrap .content p{
         width: 100%;
         font-size: 1.2rem;
+        line-height: 1.8;
     }
 
     /* faq */
