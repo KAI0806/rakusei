@@ -538,7 +538,8 @@ main{
 #voice .wrap .content p span{
     font-weight: bold;
     border-bottom: .3rem solid #EA6552;
-    position: relative;
+    display: inline-block;
+    height: 2rem;
 }
 
 #voice .wrap .content img{
